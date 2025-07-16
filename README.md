@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # BookStore System
 
 Este projeto é um sistema simples para gerenciar uma livraria, usuários e empréstimos de livros via linha de comando.
@@ -25,11 +25,11 @@ O código utiliza classes importadas do módulo `functions`:
 Comando: `cbook`
 
 Exemplo:
-```
+
 
 cbook {"title": "Livro A", "author": "Autor X"}
 
-```
+
 
 Se o valor for válido, o livro será cadastrado.
 
@@ -38,11 +38,11 @@ Se o valor for válido, o livro será cadastrado.
 Comando: `lbook`
 
 Exemplo:
-```
+
 
 lbook 123 456
 
-```
+
 
 Onde `123` é o ID do usuário e `456` o ID do livro.
 
@@ -51,11 +51,11 @@ Onde `123` é o ID do usuário e `456` o ID do livro.
 Comando: `losbook`
 
 Exemplo:
-```
+
 
 losbook 123
 
-```
+
 
 Mostra os livros emprestados pelo usuário com ID `123`.
 
@@ -64,29 +64,29 @@ Mostra os livros emprestados pelo usuário com ID `123`.
 Comando: `sbook`
 
 Exemplo para listar todos os livros:
-```
+
 
 sbook
 
-```
+
 
 Exemplo para listar um livro específico:
-```
+
 
 sbook 456
 
-```
+
 
 ### 5. Criar usuário
 
 Comando: `cuser`
 
 Exemplo:
-```
+
 
 cuser {"name": "João", "email": "[joao@example.com](mailto:joao@example.com)"}
 
-```
+
 
 Cria um usuário com os dados fornecidos.
 
@@ -95,18 +95,18 @@ Cria um usuário com os dados fornecidos.
 Comando: `suser`
 
 Exemplo para listar todos os usuários:
-```
+
 
 suser
 
-```
+
 
 Exemplo para listar um usuário específico:
-```
+
 
 suser 123
 
-```
+
 
 ---
 
@@ -135,6 +135,6 @@ suser 123
 ---
 
 Se precisar de ajuda, entre em contato!
-```
+
 
 
